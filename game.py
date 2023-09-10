@@ -24,4 +24,11 @@ def printer():
 
 def addx(row, column):
   board[int(row)-1][int(column)-1]="❌"
+
+def addo(row, column):
+  board[int(row)-1][int(column)-1]="⭕"
+
+
+
+
   
